@@ -8,3 +8,81 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.firstSection {
+  display: flex;
+  align-items: center;
+  background-color:#507597;
+  height: 350px;
+}
+
+.img1 {
+  width: 390px;
+  margin-left: 550px;
+}
+
+button {
+margin-left: 80px;
+background-color:#6f92b3;
+border: 1px solid #325676;
+border-radius: 5px;
+align-items: center;
+display: flex;
+padding: 1px 15px;
+}
+
+button p {
+  margin-left: 5px;
+  font-size: 16px;
+  color: lightgrey;
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+.secondSection {
+  display: flex;
+}
+
+.secondSection div {
+    background-color: white;
+    width: 542px;
+    height: 177px;
+    border-radius: 5px;
+    padding: 40px 20px;
+    margin-top: -100px;
+    margin-left: 60px;
+}
+
+.secondSection img {
+  margin-left: 180px;
+  margin-top: -250px;
+}
+
+h2 {
+  color:#06365f;
+  width: 250px;
+  margin-top: -20px;
+  margin-left: 10px;
+  font-family: Arial;
+}
+
+.secondSection p {
+  width: 450px;
+  margin-left: 10px;
+  font-family: Arial;
+}
+
+.img3 {
+  margin-left: 585px;
+  margin-top: 0px;
+}
+
+.thirdSection li {
+  display: flex;
+  margin-left: 300px;
+  text-transform: uppercase;
+  color: #325676;
+  font-weight: bold;
+  font-family: 'Arial';
+  margin-top: 30px;
+}
